@@ -1,0 +1,28 @@
+{
+  "name": "stripe-connect",
+  "version": "1.0.0",
+  "description": "Stripe Connect With NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahan953/stripe-connect-with-node.git"
+  },
+  "author": "Misbauddin Chowdhury Shahan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahan953/stripe-connect-with-node/issues"
+  },
+  "homepage": "https://github.com/shahan953/stripe-connect-with-node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "hbs": "^4.0.1",
+    "nodemon": "^1.14.11",
+    "stripe": "^5.4.0"
+  }
+}

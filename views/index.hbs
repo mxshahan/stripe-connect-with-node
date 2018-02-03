@@ -1,0 +1,29 @@
+<section class="py-2">
+    <div class="row">
+        <div class="col-md-6">
+            <h3 class="display-6 md-6 pt-5">
+                Web Development Tools
+            </h3>
+            <p class="lead">Learn web development front to back</p>
+            <form action="./charge" method="POST">
+                <script
+                    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                    data-key="{{public_key}}"
+                    data-amount="{{amount}}"
+                    data-name="Web Development Tools"
+                    data-description="Tools provided by Shahan"
+                    data-image="./img/logo.png"
+                    data-locale="auto">
+                </script>
+                <script>
+                    document.getElementsByClassName('stripe-button-el')[0].style.display = "none";
+                </script>
+                <input type="hidden" value="2000" name="dataAmount"/>
+                <button type="submit" class="btn btn-outline-dark text-white btn-lg ">$25</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <img src="./img/preview.jpg" class="img-fluid"/>
+        </div>
+    </div>
+</section>
